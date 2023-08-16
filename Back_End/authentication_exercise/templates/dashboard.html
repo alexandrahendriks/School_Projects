@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<!-- Your solution here. -->
+    {% if name in session['username'] %}
+        <h1>Welcome {{name}}!</h1>
+    {% endif %}
+{% endblock content %}
+

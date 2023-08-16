@@ -1,0 +1,50 @@
+* {
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*Part1*/
+a {
+    color:black;
+}
+a.link1:hover {
+    color:lightskyblue;
+    font-weight:bold;  
+}
+a.link2:active {
+    color: red;
+    font-style: italic;
+}
+a.link3:visited {
+    color: yellow;
+}
+input[type=text]:focus {
+    color: green;
+    font-size: 20px;
+}
+/*Part2*/
+
+nav {
+    background: darkblue;
+    color: white;
+    display: flex;
+}
+nav ul {
+    display: flex;
+    margin-right: 10px;
+}
+li {
+    margin-right: 30px;
+    list-style: none;
+}
+.current-page {
+    background-color: #6699cc;
+}
+nav li:hover {
+    background-color: lightblue;
+    color:black
+}
+ .text:focus{
+    outline: none;
+    border: 3px solid aqua;
+}

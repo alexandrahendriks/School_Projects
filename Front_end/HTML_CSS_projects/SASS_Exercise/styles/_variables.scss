@@ -1,0 +1,13 @@
+$padding: 20px;
+$background-color: #97d279;
+$color: #090b08;
+$decoration-color:#000; 
+$color-bodybackground:#ecffe9;
+$color-soft-green: #c0eea9;
+$color-white:#fff;
+
+@mixin text {
+    max-width: 700px;
+        text-align: center;
+        padding: $padding;  
+  }

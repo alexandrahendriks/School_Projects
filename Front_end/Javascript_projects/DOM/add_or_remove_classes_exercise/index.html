@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaScript DOM Tutorials</title>
+    <style media="screen">
+      .bold {
+        font-weight: bold;
+      }
+      .red-bg {
+        background-color: red;
+      }
+      .white-text {
+        color: white;
+      }
+      .big-font {
+        font-size: 36px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 id="title">Class List - dcode</h2>
+    <p id="myPara">Yeah mate</p>
+  </body>
+  <script type="text/javascript">
+    const myPara = document.getElementById("myPara");
+    myPara.classList.add("bold", "big-font");
+    myPara.classList.remove("bold");
+    myPara.classList.replace("big-font", "red-bg");
+
+    myPara.classList.toggle("red-bg"); //Toggle will add it if it doesnt exist and it will remove it if it does.
+    myPara.classList.toggle("red-bg");
+    console.log(myPara.classList.contains("white-text"));
+    console.log(myPara.classList);
+  </script>
+</html>

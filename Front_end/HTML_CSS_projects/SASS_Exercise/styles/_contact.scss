@@ -1,0 +1,12 @@
+@import "./styles/variables";
+/* Contact Section */
+.contact {
+    padding: $padding;
+    &_wrapper{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &_form-wrapper {
+    padding: $padding;
+  }
+  }

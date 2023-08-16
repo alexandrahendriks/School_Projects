@@ -1,0 +1,36 @@
+@import "./styles/variables";
+/* About Section */
+
+.about {
+    background-color: $background-color;
+    padding: $padding;
+    &_text {
+      @include text();
+    }
+    & p {
+      text-align: justify;
+      padding-bottom: 1em;
+      line-height: 1.4em;
+    }
+    &_wrapper {
+      display: flex;}
+    &_video-wrapper {
+        position: relative;
+        padding-bottom: 33.25%;
+        overflow: hidden;
+        align-self: center;
+        flex: 2 0 55%;
+        margin: 1.4em 0;
+        &_iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    
+    
+  
+  

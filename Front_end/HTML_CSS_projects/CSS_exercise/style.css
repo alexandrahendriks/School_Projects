@@ -1,0 +1,55 @@
+#cim {
+    text-align: center;
+    font: bold 300% Brush Script MT, Helvetica, cursive;
+    text-decoration-line: underline;
+
+}
+
+body {
+    background-color: rgb(220, 168, 49);
+    color:black;
+
+    font: normal 24px Brush Script MT, Helvetica, cursive;
+
+    line-height:1.2em;}
+
+.list {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        color: blue;
+        font-size:xx-large;
+    }
+
+.head {
+    color: darkred;
+    font-size: 200%;
+    text-align: center;
+}
+
+.text {
+    color:black;
+    text-align: center;
+}
+
+img {
+
+    border: 5px solid black;}
+
+.img {
+    text-align: center;
+    color: black;
+    
+}
+
+
+.opinion {
+    text-align: left;
+    
+}
+
+.end {
+    text-align: center;
+
+}
+

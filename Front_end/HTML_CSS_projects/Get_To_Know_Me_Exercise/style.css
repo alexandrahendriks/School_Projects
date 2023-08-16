@@ -1,0 +1,158 @@
+a {
+    text-decoration: none;
+    color:rgb(183, 97, 97);
+    margin:0;
+    padding:0;
+      }
+
+a:active{
+    color:blue;
+}
+a:visited {
+    color: green;
+}
+a:hover{
+    color:red;
+}
+
+
+.cim {
+ text-align: center;
+ font: bold italic 200% Times New Roman, Helvetica, serif;
+
+}
+main {
+    border: 5px solid white;
+}
+header {
+   border: 1px solid rgb(3, 36, 147);
+   margin: 10px;
+}
+
+.list {
+    font: bold italic 120% Times New Roman, Helvetica, serif; 
+    color: blueviolet;  
+    margin: 10px;
+    padding: 5px;
+    display: inline;
+    
+}
+li {
+    border:solid thin rgb(24, 25, 65);
+    margin: 20px;
+    padding: 5px;
+    border-radius: 15px;
+}
+    
+
+li a:hover {
+    background-color: whitesmoke;
+
+}
+
+#like{
+    color: purple;
+    text-decoration-line: overline underline;
+    font: bold italic 180% Times New Roman, Helvetica, serif; 
+
+}
+
+#link{
+  font: bold 150% Times New Roman, Helvetica, serif;
+}
+body {
+    text-align: center;
+    background-color: rgb(189, 248, 248);
+    font: bold italic 150% Times New Roman, Helvetica, serif;
+   
+}
+
+.text {
+    color: rgb(119, 10, 68);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font: italic 100% Times New Roman, Helvetica, serif;
+}
+footer {
+    color: rgb(19, 6, 165);
+}   
+
+img {
+    border: 5px solid black;}
+
+.img {
+    text-align: center;
+    color: black;
+    
+}
+
+#centerit {
+    
+    margin: auto;
+    width:800px ;
+    
+}
+
+.input {
+    text-align: left;
+    font: normal 100% Times New Roman, Helvetica, serif;
+    
+    
+}
+
+form input {
+    margin: 10px 0px ;
+    border-radius: 10px;
+}
+form textarea {
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+#button {
+    border-radius: 0%;
+    margin-left: 100px;
+}
+
+.footer {
+    text-align: left;
+    color: black;
+    margin-top: 5%;
+}
+
+@media screen and (min-width:800px){
+    li {display:inline-block;
+}
+}
+
+@media screen and (min-width:800px){
+    body {background-color:rgb(243, 248, 149);}
+}    
+@media screen and (min-width:800px){
+    .text {color:rgb(203, 61, 179);
+    font: italic 80% Times New Roman, Helvetica, serif;
+    line-height: 1.6em;}
+}    
+
+
+@media screen and (max-width:800px){
+    li {display:block;
+        margin: 15px;
+        width: auto;}
+}
+@media screen and (max-width:500px){
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+}
+@media screen and (max-width:900px){
+    #centerit { text-align:inherit;
+        margin: auto;
+        width: 100%;
+
+    }
+}

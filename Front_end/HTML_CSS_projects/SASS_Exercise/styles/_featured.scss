@@ -1,0 +1,20 @@
+@import "./styles/variables";
+/* Featured Section */
+.featured {
+    padding: $padding;
+    &_wrapper {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &_img img {
+      width: 300px;
+    }
+    &_text {
+    @include text();
+    & p {
+      text-align: justify;
+      padding: $padding;
+      line-height: 1.4em;
+    }
+  }
+  }

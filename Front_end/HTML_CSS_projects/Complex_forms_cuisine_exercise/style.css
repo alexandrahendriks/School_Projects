@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(240, 182, 106);    
+}
+
+header {
+    text-align: center;
+    font: bold italic 200% Times New Roman, Helvetica, serif;
+    background-color: #333;
+    border: solid #333;
+    margin: 0%;
+    padding: 3%
+}
+
+header h1 {
+    color: rgb(254, 254, 254);
+    text-decoration-line: underline;
+    text-decoration-line: #fff;
+}
+
+.background {
+    background-image: url("food.png");
+    margin:-3% 0% -5% 0%;
+    padding:0;
+}
+
+h2 {
+    font:bold 250% Times New Roman, Helvetica, serif;
+    text-decoration-line: underline;
+    text-align: center;
+    margin-top: 3%;
+    padding: 15px;
+
+}
+p {
+    font:italic 200% Times New Roman, Helvetica, serif;
+    color:rgb(39, 32, 32);
+    text-align:center;
+}
+
+.name {
+    font: bold  120% Times New Roman, Helvetica, serif;
+}
+.data {
+    font: normal  100% Times New Roman, Helvetica, serif;
+    display: inline;
+    margin:1.5% 1.5% 0% 1.5%;
+}
+#namewhite {
+    font: bold  120% Times New Roman, Helvetica, serif;
+    color: #fff;
+}
+
+.block {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#color {
+    display: block;
+    font: bold  120% Times New Roman, Helvetica, serif;
+    color: rgb(114, 6, 6);
+    text-align: right;
+    margin-right: 20%;
+}
+
+.box {
+    margin-bottom: 1%;
+}
+.bio {
+    font: bold  140% Times New Roman, Helvetica, serif;
+    margin-left: 10%;
+}
+
+.upload {
+    font: bold  140% Times New Roman, Helvetica, serif;
+    text-align: center;
+    line-height: 200%;
+}
+
+.link {
+    text-align: center;
+}
+
+.button {
+    margin-left:7%;
+    width: 30%;
+    height: 5%;
+}
+
+.link {
+    text-align: center;
+    color: aqua;
+    font: bold italic 160% Times New Roman, Helvetica, serif;
+    margin: 5% 0%;
+}
+
+footer {
+    text-align: center;
+    font: bold italic 200% Times New Roman, Helvetica, serif;
+    background-color: #333;
+    border: solid #333;
+    margin: 0%;
+    padding: 0.1%
+}
+
+@media screen and (max-width:800px){
+    .background {
+        margin:-3% 0% -10% 0%;
+        padding:0;
+    }
+}
+@media screen and (max-width:800px){
+    .data {
+        display: block;
+    }
+    .data label {
+        margin-left: 2%;
+    }
+    .data #namewhite {
+            color: black    ;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .link {
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (max-width:800px){
+    .button {
+        width:auto;
+        height:auto;
+        margin-bottom: 10%;
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width:800px){
+    textarea {
+        width:auto;
+        height: auto;
+    }
+}
+
+
